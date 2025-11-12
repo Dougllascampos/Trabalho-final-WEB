@@ -1,0 +1,37 @@
+.detalhe-personagem {
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 2rem;
+}
+.link-voltar {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+.link-voltar:hover { color: #ffe81f; }
+.detalhe-personagem h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  border-bottom: 1px solid #ffe81f;
+  padding-bottom: 1rem;
+}
+.info-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.info-item {
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+.info-item strong {
+  color: #ffe81f;
+  margin-right: 0.5rem;
+  display: block;
+  margin-bottom: 0.25rem;
+}

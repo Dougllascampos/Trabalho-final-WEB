@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Exo 2', sans-serif;
+  background-color: #000;
+  color: #eee;
+}
+a {
+  color: #ffe81f;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+a:hover { color: #fff; }
+h1, h2, h3 {
+  color: #ffe81f;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
